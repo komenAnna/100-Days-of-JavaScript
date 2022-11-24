@@ -16,7 +16,7 @@
             <div class="heading">
                 <h1>Tip Calculator</h1>
             </div>
-            <form action="">
+            <form action="" id="form">
                 <div class="bill-amount">
                     <p>Please enter the total amount of your bill: </p>
                     <label for="bill">Kshs. </label>
@@ -35,16 +35,20 @@
                         </select>
                     </label>
                 </div>
+
+                <div class="people">
+                    <p>How many people are sharing the bill?</p>
+                    <label for="numOfPeople" ></label>
+                    <input type="text" id="numOfPeople" placeholder="Number of people">
+                    <br>
+                    <br>
+                    <button id="calculate-btn" type="button">Calculate</button>
+                    
+                    <button id="clear-btn" type="button" onclick="clearInput()">Clear</button>
+                </div>
             </form>
-            <div class="people">
-                <p>How many people are sharing the bill?</p>
-                <label for="numOfPeople" ></label>
-                <input type="text" id="numOfPeople" placeholder="Number of people">
-                <br>
-                <br>
-                <button id="calculate-btn" type="button">Calculate</button>
-            </div>
-            <div class="tip-container">
+            
+            <div id="tip-container">
                 <p>Kshs. <span id="tip">0.00</span> <small id="each">each</small></p>
             </div>
         </div>
