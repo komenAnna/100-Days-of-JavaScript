@@ -24,7 +24,13 @@
 ## 100DaysOfCode Day-to-Day Progress
 
 ## Day 1
-
+- Built a Tip Calculator and got to learn:
+    - [x] The Document Object Model (DOM)
+    - [x] CSS styling -- Margin, Buttons
+    - [x] Javascript functions
+    - [x] Adding styles to an element using the Javascript DOM
+    - [x] Catching errors
+    - [x] Leaving a blank line at the end of the file, here's [why](https://gist.github.com/camh-/1bebfcff1b0f814e9b191edc60d5206b)
 ## Day 2
 
 ## Day 3
