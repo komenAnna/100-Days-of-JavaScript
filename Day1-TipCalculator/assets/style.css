@@ -1,0 +1,30 @@
+.container {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    padding: 2rem 0 2rem 0;
+    margin: 7rem auto;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow:  20px 20px 60px #d9d9d9, 
+                -20px -20px 60px #ffffff;
+}
+p {
+    font-size: 18px;
+    font-weight: 400;
+}
+input, button, select {
+    padding: .5rem;
+}
+button {
+    border-radius: 5px;
+    width: 30%;
+    background-color: #000;
+    color: white;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #ffffff;
+    color: #000;
+}
