@@ -27,9 +27,6 @@ function tipCalculator() {
     document.getElementById("tip").innerHTML = totalAmount //display the total amount of the div
 }
 
-// document.getElementById("tip-container").style.display = "none"
-// document.getElementById("tip").style.display = "none"
-
 //a function that will execute the tipCalculator function on the click of the btn
 document.getElementById("calculate-btn").onclick = function () {
     tipCalculator()
