@@ -32,7 +32,16 @@
     - [x] Catching errors
     - [x] Leaving a blank line at the end of the file, here's [why](https://gist.github.com/camh-/1bebfcff1b0f814e9b191edc60d5206b)
 ## Day 2
-
+- Built a Background Color Changer and got to learn:
+    - [x] The Document Object Model (DOM)
+    - [x] CSS styling -- Margin, Buttons
+    - [x] Javascript functions and how to call them
+    - [x] Adding styles to an element using the Javascript DOM
+    - [x] Testing and Catching errors
+    - [x] parseInt()
+    - [x] How to access items in an array using index
+    - [x] Math.random()
+    - [x] Leaving a blank line at the end of the file, here's [why](https://gist.github.com/camh-/1bebfcff1b0f814e9b191edc60d5206b)
 ## Day 3
 
 ## Day 4
