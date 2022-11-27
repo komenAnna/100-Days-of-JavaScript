@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Cinzel', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: #ffdf6c;
+}
+.button {
+    position: relative;
+    padding: 15px 20px;
+    font-size: 1.5rem;
+    background-color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    color: #5c4800;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+.button:hover {
+    letter-spacing: 0.1rem;
+}
+#newsletter {
+    position: fixed;
+    top: -100%; /* makes the class(id) disappear from the visible page*/
+    left: 50%;
+    /*the transform property applies 2D or 3D transformation to an element*/
+    /*translate(x,y) defines a 2D transformation*/
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    /*specifies the stack order of an element. only works on positioned elements and flex items*/
+    z-index: 1000;
+    width: 450px;
+    padding: 80px 50px 50px;
+    /*transitions allows you to change property values smoothly, over a given duration*/
+    transition: 0.5s;
+    border-radius: 4px;
+    visibility: hidden;
+}
+#newsletter.active{
+    visibility: visible;
+    top: 50%;
+}
+#newsletter .icon {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#newsletter .icon .fa-envelope-open-o{
+    width: 80px;
+    color: #ffdf6c;
+}
+#newsletter .icon h2 {
+    text-align: center;
+    color: #5c4800;
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+#newsletter .icon p {
+    text-align: center;
+    color: #5c4800;
+}
+#newsletter .icon .box{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input, button{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    outline: none;
+    font-size: 1rem;
+    font-family: "Cinzel", serif;
+}
+button {
+    border: none;
+    width: 150px;
+    letter-spacing: 0.1rem;
+    background-color: #ffdf6c;
+    color: #5c4800;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+}
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.close {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 20px;
+}
