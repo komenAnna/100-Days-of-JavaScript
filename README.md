@@ -50,10 +50,17 @@
     - [x] Mobile design (@media screen)
     - [x] Javascript functions
     - [x] Math.random() and Math.floor()
-    - [x] TextContent property of JS
+    - [x] TextContent() method of JS
     - [x] Adding styles to an element using the Javascript DOM
 ## Day 4
-
+- Built a Newsletter Popup and got to learn:
+    - [x] The Document Object Model (DOM)
+    - [x] CSS styling -- Margin, Buttons, Padding, Top, Right, Flexbox(display, align-items, justify-content, height to center elements on a page)
+    - [x] CSS positioning, z-index, transform, transistions, visibility
+    - [x] Calling a function from the HTML file (i.e using the 'onclick' property in a button -- subscribe and close)
+    - [x] Javascript functions
+    - [x] Toggle() method in JS to hide or show elements in JS by adding the classname
+    - [x] Adding class to an element through the Javascript DOM(added class 'active' to 'newsletter')
 ## Day 5
 
 ## Day 6
