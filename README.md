@@ -43,6 +43,7 @@
     - [x] Math.random()
     - [x] Leaving a blank line at the end of the file, here's [why](https://gist.github.com/camh-/1bebfcff1b0f814e9b191edc60d5206b)
 ## Day 3
+- Built a Background Color Changer and got to learn:
     - [x] The Document Object Model (DOM)
     - [x] CSS styling -- Margin, Buttons
     - [x] Bootstrap classes (d-grid and gap)
