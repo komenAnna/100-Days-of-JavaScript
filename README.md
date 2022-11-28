@@ -62,7 +62,15 @@
     - [x] Toggle() method in JS to hide or show elements in JS by adding the classname
     - [x] Adding class to an element through the Javascript DOM(added class 'active' to 'newsletter')
 ## Day 5
-
+- Built an Expand Card page and got to learn:
+    - [x] The Document Object Model (DOM) --> 'querySelectorAll' to select a classname that is shared
+    - [x] CSS styling -- Margin, Buttons, Padding, Top, Right, Flexbox(display, align-items, justify-content, height to center elements on a page), 
+    - [x] CSS positioning, flex property to fit item in div, opacity, transitioning
+    - [x] Calling a function from the HTML file (i.e using the 'onclick' property in a button -- toggle to change light to dark mode)
+    - [x] Javascript functions --> Arrow functions
+    - [x] Toggle() method in JS to toggle in JS by adding the classname
+    - [x] Adding class to an element through the Javascript DOM(added class 'active' to 'panel')
+    - [x] Removing the class from an element through the Javascript DOM(removed class 'active' from 'panel')
 ## Day 6
 
 ## Day 7
