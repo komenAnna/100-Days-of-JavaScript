@@ -72,7 +72,20 @@
     - [x] Adding class to an element through the Javascript DOM(added class 'active' to 'panel')
     - [x] Removing the class from an element through the Javascript DOM(removed class 'active' from 'panel')
 ## Day 6
-
+- Built a JavaScript Counter and got to learn:
+    - [x] The Document Object Model (DOM) --> difference between 'querySelector' &  'querySelectorAll', 'eventListener'
+    - [x] CSS styling
+    - [x] Bootstrap classes -- buttons in bootstrap
+    - [x] Javascript Anonymous Immediately Invoked functions --
+        - [x] An Anonymous function is a function without a name
+        - [x] An Anonymous function should be placed insie the () of you'll get a syntax error. 
+        - [x] The () makes the anonymous function an expression that returns a function object.
+        - [x] An anonymous function is not accessible after its initial creation. Therefore, you often need to assign it to a variable if you want to call it later
+        - [x] You can also use them as arguments eg line 6--script.js in the foreach(anonymous function) method
+        - [x] Adding a paranthesis at the end makes it an Immediately Invoked function -- you can pass arguments in the ()
+    - [x] ClassList.contains() method to find a specific class or ID from the HTML -- varName.classList.contains("./#")
+    - [x] TextContent() method of JS to add text to the page -- varNme.textContent = "what to display"
+    - [x] Adding styles to an element using the Javascript DOM -- varName.style.CSSproperty
 ## Day 7
 
 ## Day 8
