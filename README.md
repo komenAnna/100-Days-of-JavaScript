@@ -87,7 +87,14 @@
     - [x] TextContent() method of JS to add text to the page -- varNme.textContent = "what to display"
     - [x] Adding styles to an element using the Javascript DOM -- varName.style.CSSproperty
 ## Day 7
-
+- Built a  Live Character Count page and got to learn:
+    - [x] The Document Object Model (DOM) --> 'querySelectorAll' to select a classname that is shared
+    - [x] CSS styling -- Margin, Buttons, Padding, Top, Right, Flexbox(display, align-items, justify-content, height to center elements on a page), 
+    - [x] CSS positioning, flex property to fit item in div
+    - [x] Javascript functions --> Calling a function as an argument
+    - [x] innerText property sets the text from the JS to HTML --> set the textLength variable in the counter element --> counter.innerText = `${textLength}` sets the text length in HTML element held in the counter var
+    - [x] value property retrieves or sets the text in the entry field of the textArea element --> textarea.value takes the value in the text area
+    - [x] length property returns the length of the string object --> text.length 
 ## Day 8
 
 ## Day 9
