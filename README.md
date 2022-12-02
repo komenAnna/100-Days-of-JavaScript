@@ -96,7 +96,19 @@
     - [x] value property retrieves or sets the text in the entry field of the textArea element --> textarea.value takes the value in the text area
     - [x] length property returns the length of the string object --> text.length 
 ## Day 8
-
+- Built an Image Slider page and got to learn:
+    - [x] The Document Object Model (DOM) --> 'querySelectorAll' to select all instances of that classname and 'querySelector' which selects only the first instance of that classname, 'addEventListener'
+    - [x] CSS styling -- Margin, Buttons, Padding, Flexbox(display, align-items, justify-content, height to center elements on a page), 
+    - [x] CSS positioning --> 5 types: relative, absolute, static, fixed, sticky
+    - [x] Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. 
+        - [x] Relative - element is positioned relative(with reference to) to its normal position.
+        - [x] Absolute - element is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed). Absolute positioned elements are removed from the normal flow, and can overlap elements.
+        - [x] Fixed - element is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled.
+        - [x] Static - elements are not affected by the top, bottom, left, and right properties.
+        - [x] Sticky - is positioned based on the user's scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+    - [x] Javascript functions --> Immediately Invoked Anonymous Function
+    - [x] ClassList.contains() method to find a specific class or ID from the HTML -- varName.classList.contains("./#") -->
+    - [x] Adding styling properties from the JS file --> var.style.propertyName = "property"
 ## Day 9
 
 ## Day 10
