@@ -110,7 +110,24 @@
     - [x] ClassList.contains() method to find a specific class or ID from the HTML -- varName.classList.contains("./#") -->
     - [x] Adding styling properties from the JS file --> var.style.propertyName = "property"
 ## Day 9
-
+- Built an Analog Clock page that displays the currrent time and got to learn:
+    - [x] The Document Object Model (DOM) -->'querySelector' which selects only the first instance of that classname, 'addEventListener' that listens for any prompt from an element
+    - [x] CSS styling -- Margin, Padding, Flexbox(display, align-items, justify-content, height to center elements on a page), 
+    - [x] CSS positioning --> Absolute
+        - [x] Absolute - element is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed). Absolute positioned elements are removed from the normal flow, and can overlap elements.
+    - [x] CSS ::after, ::before -->
+        -[x] :: after -- inserts something after the content of each selected element(s). The content property specifies the content to insert.
+        - [x] :: before --  inserts something before the content of each selected element(s). The content property specifies the content to insert.
+    - [x] Javascript setInterval() method -->
+        - [x] Window setInterval() method calls a function at specified intervals in milliseconds it continues calling the function until clearInterval is called , or the window is closed
+        - [x] Syntax : setInterval(function(), milliseconds)
+    - [x] Javascript Date() method -->
+        -[x] Date() -- allow you to get and set the year, month, day, hour, minute, second, and millisecond
+        -[x] getHours() -- returns the hour (0 to 23) of a date. eg At time of this code, the return is 2
+        -[x] getMinutes() -- returns the minutes (0 to 59) of a date. eg At time of coding, the return is 02
+        -[x] getSeconds() -- returns the seconds (0 to 59) of a date. eg At the time of coding, the return is 36
+    - [x] Adding styling properties from the JS file --> var.style.propertyName = "property" --> var.style.transform = "rotateZ()"
+    -[x] RotateZ() --> rotates an element around its z-axix at a given degree
 ## Day 10
 
 ## Day 11
