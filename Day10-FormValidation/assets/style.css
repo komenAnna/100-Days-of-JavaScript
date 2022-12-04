@@ -75,10 +75,10 @@ button {
     font-size: 16px;
     font-family: inherit;
     cursor: pointer;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 button:hover{
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
     background-color: #000;
 }
 
