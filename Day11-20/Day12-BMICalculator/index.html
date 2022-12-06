@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <p>Body mass index is a value derived from the mass and height of a person.</p>
+        <br>
+        <br>
+        <form action="" id="form">
+            <span class="height">
+                <label for="height">Height: </label>
+                <input type="text" id="height" placeholder="Enter your height">
+            </span>
+            <br>
+            <br>
+            <span>
+                <label for="weight">Weight</label>
+                <input type="text" id="weight" placeholder="Enter your weight">
+            </span>
+            <br>
+            <br>
+            <button id="calculate" class="calculate">Calculate</button>
+            <br>
+            <br>
+            <div class="result"></div>
+            <br>
+            <div class="weight-guide">
+                <h2>BMI Weight Guide:</h2>
+                <p>Under Weight = Less than 18.6</p>
+                <p>Normal Range = 18.6 and 24.9</p>
+                <p>Overweight = Greater than 24.9</p>
+            </div>
+        </form>
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+</html>
