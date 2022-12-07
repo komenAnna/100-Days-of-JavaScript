@@ -129,13 +129,27 @@
     - [x] Adding styling properties from the JS file --> var.style.propertyName = "property" --> var.style.transform = "rotateZ()"
     -[x] RotateZ() --> rotates an element around its z-axix at a given degree
 ## Day 10
-
+trim - Removes the leading and trailing white space and line terminator characters from a string.
 ## Day 11
 
 ## Day 12
 
 ## Day 13
-
+- Built a page that displays the current day and a corresponding quote and got to learn:
+    - [x] The Document Object Model (DOM) --> 'getElementById' to select an element using its 'id'
+    - [x] CSS styling -- Flexbox(display, align-items, justify-content, height, width to center elements on a page), text-transform (to uppercase) 
+    - [x] Javascript DATE() functions --> 
+        - [x] Date() -- The Date object works with dates and times. Date objects are created with new Date().
+        - [x] Date.getDay() -- method returns the day of the week (0 to 6) of a date. Sunday = 0, Monday = 1, ... 
+        - [x] Date.getDate() -- method returns the day of the month (1 to 31) of a date.
+    - [x] Switch case -->
+        - [x] Is used to perform different actions based on different conditions.
+        - [x] Selects one of many codeblocks to be executed
+        - [x] The switch expression is evaluated once.
+        - [x] The value of the expression is compared with the values of each case.
+        - [x] If there is a match, the associated block of code is executed.
+        - [x] If there is no match, the default code block is executed.
+    - [x] var.innerHTML -- this property sets or returns the HTML content (inner HTML) of an element. In this case, we set the value of 'theDayIs' and 'quote' object to the span#quote element from the JS file.
 ## Day 14
 
 ## Day 15
