@@ -129,7 +129,7 @@
     - [x] Adding styling properties from the JS file --> var.style.propertyName = "property" --> var.style.transform = "rotateZ()"
     -[x] RotateZ() --> rotates an element around its z-axix at a given degree
 ## Day 10
-trim - Removes the leading and trailing white space and line terminator characters from a string.
+
 ## Day 11
 
 ## Day 12
@@ -149,7 +149,7 @@ trim - Removes the leading and trailing white space and line terminator characte
         - [x] The value of the expression is compared with the values of each case.
         - [x] If there is a match, the associated block of code is executed.
         - [x] If there is no match, the default code block is executed.
-    - [x] var.innerHTML -- this property sets or returns the HTML content (inner HTML) of an element. In this case, we set the value of 'theDayIs' and 'quote' object to the span#quote element from the JS file.
+    - [x] var.innerHTML -- this property sets or returns the HTML content (inner HTML) of an element. In this case, we set the value of 'theDayIs' and 'quote' object to the span#weekday and span#quote element from the JS file.
 ## Day 14
 
 ## Day 15
