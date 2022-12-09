@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: auto;
+    background: linear-gradient(to right,#24243e,#302b63,#0f0c29);
+    font-family: "PT Serif", serif;
+}
+h1{
+    text-transform: uppercase;
+    font-style: italic;
+    color: rgb(189, 189, 189);
+    text-align: center;
+}
+.dateInput{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+input {
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-family: "PT Serif", serif;
+}
+.clock{
+    margin-top: 2rem;
+}
+.clock span {
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0 0 1rem;
+}
+p {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* for mobile size screen */
+@media only screen and (max-width: 600px){
+    input {
+        font-size: 1rem;
+    }
+    h1 {
+        /* font-size: 1rem; */
+        font-size: 1.5rem;
+        display: table-caption;
+        padding-left: 7.5rem;
+        margin-top: -6rem
+    }
+    span {
+        font-size: 1rem;
+        padding: 0 0 0 1rem;
+    }
+    .clock {
+        width: 360px;
+        display: grid;
+        padding: 0.5rem 0 0 5rem;
+    }
+    p {
+        font-size: .7rem;
+        margin-left: -2.5rem;
+    }
+}
