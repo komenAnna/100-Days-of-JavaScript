@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- font awesome link -->
+    <script src="https://use.fontawesome.com/c56d76baa9.js"></script>
+    <title>Add To Cart</title>
+</head>
+<body>
+    <!-- The data-* attribute is used to store custom data private to the page or application. -->
+    <!-- The data-* attribute gives us the ability to embed custom data attributes on all HTML elements. -->
+    <!-- The stored (custom) data can then be used in the page's JavaScript to create a more engaging user experience (without any Ajax calls or server-side database queries). -->
+    <div class="cartDiv" id="cartDiv" data-totalitems="0">
+        <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+    </div>
+    <div class="container">
+        <button class="addToCart" id="addToCart">
+            Add To cart
+            <span class="cartItem"></span>
+        </button>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/script.js"></script>
+</body>
+</html>
