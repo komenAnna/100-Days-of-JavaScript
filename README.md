@@ -181,7 +181,7 @@
             - [x] A jQuery action() to be performed on the element(s)
             - [x] Examples:
                 - [x] $(this).hide() - hides the current element.
-                - [x] $("p").hide() - hides all <p> elements.
+                - [x] $("p").hide() - hides all paragraph elements.
                 - [x] $(".test").hide() - hides all elements with class="test".
                 - [x] $("#test").hide() - hides the element with id="test".
         - [x] The Document Ready Event
@@ -199,7 +199,17 @@
         - [x] [JQuery Remove Class](https://www.w3schools.com/jquery/jquery_css_classes.asp)
     - [x] SetTimeOut() --- method calls a function after a number of milliseconds. 1 second = 1000 milliseconds.
 ## Day 16
-
+- Built a page that includes a form that takes a message as input and displays it:
+    - [x] CSS Styling:
+        - [x] Box-sizing -- allows us to include the padding and border in an element's total width and height.
+        If you set box-sizing: border-box; on an element, padding and border are included in the width and height
+        - [x] Flexbox -- display, align-items, justify-comtent, min-height
+    - [x] JavaScript:
+        - [x] Immediately-invoked Function Expression (IIFE) -  is a technique to execute a Javascript function as soon as they are created. Are also called anonymous functions as they have no defined names.
+        - [x] Form e.preventDefault() -- this method cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur.
+        - [x] SetTimeOut() -- method calls a function after a number of milliseconds. 1 second = 1000 milliseconds.
+        - [x] [classList](https://www.w3schools.com/jsref/prop_element_classlist.asp) property --  property returns the CSS classnames of an element.
+        - [x] [textContent](https://www.w3schools.com/jsref/prop_node_textcontent.asp) property -- property sets or returns the text content of the specified node, and all its descendants.
 ## Day 17
 
 ## Day 18
