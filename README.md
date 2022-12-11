@@ -151,9 +151,53 @@
         - [x] If there is no match, the default code block is executed.
     - [x] var.innerHTML -- this property sets or returns the HTML content (inner HTML) of an element. In this case, we set the value of 'theDayIs' and 'quote' object to the span#weekday and span#quote element from the JS file.
 ## Day 14
-
+- Built a page that displays a countdown timer:
+    - [x] Incomplete JS
 ## Day 15
-
+- Built a page that displays an Add-To-Cart Animation:
+    - [x] HTML data-* attribute:
+        - [x] The data-* attribute is used to store custom data private to the page or application.
+        - [x] The data-* attribute gives us the ability to embed custom data attributes on all HTML elements.
+        - [x] The stored (custom) data can then be used in the page's JavaScript to create a more engaging user experience (without any Ajax calls or server-side database queries).
+        - [x] The data-* attribute consist of two parts:
+            - [x] The attribute name should not contain any uppercase letters, and must be at least one character long after the prefix "data-" in this case the data attribute is "data-totalitems".
+            - [x] The attribute value can be any string.
+        - [x] The data-* attribute is a Global Attribute, and can be used on any HTML element.
+    - [x] CSS styling:
+        - [x] Flexbox(display, align-items, justify-content, height, width to center elements on a page)
+        - [x] Positioning:
+            - [x] Absolute - element is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed). Absolute positioned elements are removed from the normal flow, and can overlap elements.
+            - [x] Relative - element is positioned relative(with reference to) to its normal position.
+        - [x] @keyframes -- used for animations. It gives you more control over the animation you want to perform. The animation is created by gradually changing from one style to another. You can change the CSS styles as many times as you want.
+            - [x] Specify when the style change will happen in %, or with the keywords "from" and "to", which is the same as 0% and 100%. 0% is the beginning of the animation, 100% is when the animation is complete.
+        - [x] Translate() -- moves an element from its current position (according to the parameters given for the X-axis and the Y-axis).
+    - [x] JQUERY --- is a lightweight, "write less, do more", JavaScript library:
+        - [x] The purpose of jQuery is to make it much easier to use JavaScript on your website.
+        - [x] page can't be manipulated safely until the document is "ready." jQuery detects this state of readiness for you.
+        - [x] JQuery syntax is tailor-made for selecting HTML elements and performing some action on the element(s):
+            - [x] $(selector).action()
+            - [x] A $ sign to define/access jQuery
+            - [x] A (selector) to "query (or find)" HTML elements
+            - [x] A jQuery action() to be performed on the element(s)
+            - [x] Examples:
+                - [x] $(this).hide() - hides the current element.
+                - [x] $("p").hide() - hides all <p> elements.
+                - [x] $(".test").hide() - hides all elements with class="test".
+                - [x] $("#test").hide() - hides the element with id="test".
+        - [x] The Document Ready Event
+            - [x] This is to prevent any jQuery code from running before the document is finished loading (is ready).
+            - [x] Code included inside $( document ).ready() will only run once the page Document Object Model (DOM) is ready for JavaScript code to execute
+            - [x] Syntax: 
+                $(document).ready(function(){
+                    // jQuery methods go here...
+                });
+        - [x] [JQuery Selectors](https://www.w3schools.com/jquery/jquery_selectors.asp)
+        - [x] [JQuery Events](https://www.w3schools.com/jquery/jquery_events.asp)
+            - [x] click(), dbclick(), mouseenter(), mouseleave() etc
+            - [x] The on() method -- attaches one or more event handlers for the selected elements.
+        - [x] [JQuery Add Class](https://www.w3schools.com/jquery/jquery_css_classes.asp)
+        - [x] [JQuery Remove Class](https://www.w3schools.com/jquery/jquery_css_classes.asp)
+    - [x] SetTimeOut() --- method calls a function after a number of milliseconds. 1 second = 1000 milliseconds.
 ## Day 16
 
 ## Day 17
