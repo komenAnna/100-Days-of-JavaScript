@@ -4,7 +4,7 @@
 // Code included inside $( document ).ready() will only run once the page Document Object Model (DOM) 
 // is ready for JavaScript code to execute
 $(document).ready(() => {
-    // he jQuery #id selector uses the id attribute of an HTML tag to find the specific element.
+    // The jQuery #id selector uses the id attribute of an HTML tag to find the specific element.
     // An id should be unique within a page, so you should use the #id selector when you want to find a single, 
     // unique element.
     // To find an element with a specific id, write a hash character, followed by the id of the HTML element:
