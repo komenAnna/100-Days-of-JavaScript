@@ -38,6 +38,6 @@ body {
     border-radius: 5px;
     padding: 0.25rem 0;
 }
-.btn:hover {
+.btn::hover {
     background: rgb(50, 133, 47);
 }
