@@ -5,7 +5,7 @@
     let buttons = document.getElementsByClassName("btn")
     let equal = document.querySelector(".btn-equal")
     let clear= document.querySelector(".btn-clear")
-    console.log(buttons)
+    // console.log(buttons)
     
 
     // loop through each button and execute the function
