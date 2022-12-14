@@ -211,7 +211,19 @@
         - [x] [classList](https://www.w3schools.com/jsref/prop_element_classlist.asp) property --  property returns the CSS classnames of an element.
         - [x] [textContent](https://www.w3schools.com/jsref/prop_node_textcontent.asp) property -- property sets or returns the text content of the specified node, and all its descendants.
 ## Day 17
-
+- Built a page that displays a functioning calculator and got to learn:
+    - [x] The Document Object Model (DOM) --> 
+        - [x] The 'querySelecor' method returns an array-like object called a node list. These data structures are referred to as “Array-like”, because they appear as an array, but can not be used with array methods like map and forEach.
+        - [x] Trying to call the Array.forEach method on the array-like object causes the error "TypeError 'forEach' is not a function in JavaScript"
+        - [x] To convert the 'node list' into an array, we use the Array.from(nodelist) or Array.apply(null, nodelist) methods
+        - [x] This also applies to tElementsBy* (getElementsByTagName,getElementsByClassName, etc)
+        - [x] f you need to iterate them using forEach, then create an array by copying the collection using Array.from
+    - [x] CSS styling -- Flexbox(display, align-items, justify-content, height, width to center elements on a page)
+    - [x] Javascript EVAL() function --> 
+        - [x] The eval() method evaluates or executes an argument.
+        - [x] If the argument is an expression, eval() evaluates the expression. 
+        - [x] If the argument is one or more JavaScript statements, eval() executes the statements.
+        - [x] [NOT SAFE TO USE!!!!!](https://www.w3schools.com/jsref/jsref_eval.asp)
 ## Day 18
 
 ## Day 19
