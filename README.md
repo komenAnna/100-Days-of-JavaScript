@@ -229,7 +229,7 @@
 ## Day 19
 
 ## Day 20
-
+GRADUATION DAY!!!!!!!!!!!!!!!!!!!!!
 ## Day 21
 
 ## Day 22
